@@ -6,7 +6,7 @@ async function query(data) {
         {
             method: "POST",
             headers: {
-                Authorization: `Bearer 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`,
+                Authorization: `Bearer token`,
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
